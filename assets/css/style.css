@@ -1,0 +1,78 @@
+.navbar-brand {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.header-text {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.contenedor-animacion{
+
+    width: auto;
+    height: auto;
+}
+
+.animacion-img {
+    width: 18rem;
+    height: 15rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: cambiarimg 1s infinite;
+ 
+
+
+}
+
+@keyframes cambiarimg {
+    0% {
+        background-image: url(../img/1.svg);
+    }
+
+    25% {
+        background-image: url(../img/2.svg);
+    }
+
+    50% {
+        background-image: url(../img/3.svg);
+    }
+
+    75% {
+        background-image: url(../img/4.svg);
+    }
+
+    100% {
+        background-image: url(../img/1.svg);
+    }
+
+
+}
+
+.rojo{
+    background: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.verde{
+    background: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.celeste{
+    background: lightblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
